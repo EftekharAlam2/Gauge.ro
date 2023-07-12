@@ -1,3 +1,5 @@
+import "./banner.css";
+
 const Banner = () => {
   return (
     <section className="bg-[#1c1c3a] py-10 rounded-b-2xl">
@@ -16,9 +18,11 @@ const Banner = () => {
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="xl:mb-2 mt-10 md:leading-tight mb-4 text-[#fff] text-4xl md:text-6xl text-center font-semibold ">
-              Gauge Water Purifier <br />{" "}
-              <span className="text-[#fea063]">Puts An End</span> To RO Service
-              Pain
+              Gauge Water Purifier <br />
+              <span className="md:text-6xl font-bold md:font-semibold gradient-text ">
+                Puts An End
+              </span>{" "}
+              To RO Service Pain
             </h2>
             <p className="mt-5 mb-12 px-4 md:px-16 lg:px-0 lg:mx-3 leading-relaxed text-center font-normal text-normal md:text-lg max-w-2xl text-[#6b6b6b]">
               Fully automatic water purifier provides the highest water savings
