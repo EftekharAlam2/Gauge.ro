@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <section className="bg-[#1c1c3a] py-10">
+    <section className="bg-[#1c1c3a] py-10 rounded-b-2xl">
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
@@ -15,22 +15,24 @@ const Banner = () => {
             />
           </div>
           <div className="md:w-1/2 text-center md:text-left">
-            <h2 className="text-3xl font-bold mb-4">
-              Banner the Magic of Video Game Toys
+            <h2 className="xl:mb-2 mt-10 md:leading-tight mb-4 text-[#fff] text-4xl md:text-6xl text-center font-semibold ">
+              Gauge Water Purifier <br />{" "}
+              <span className="text-[#fea063]">Puts An End</span> To RO Service
+              Pain
             </h2>
-            <p className="text-lg mb-6">
-              Immerse yourself in the world of video game toys and collectibles.
-              From action figures to plush toys, we have a wide range of
-              merchandise that celebrates your favorite video games.
+            <p className="mt-5 mb-12 px-4 md:px-16 lg:px-0 lg:mx-3 leading-relaxed text-center font-normal text-normal md:text-lg max-w-2xl text-[#6b6b6b]">
+              Fully automatic water purifier provides the highest water savings
+              while ensuring a seamless service experience.
             </p>
-            <p className="text-lg mb-6">
-              Whether you are a casual fan or a hardcore collector, our curated
-              collection is sure to delight you. Explore the characters, iconic
-              moments, and artistry that make video game toys so special.
-            </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg mb-5">
-              Learn More
-            </button>
+            <div className="flex flex-col justify-center items-center mx-auto relative">
+              <button className="inline-flex text-white focus:outline-none border-1 rounded-full bg-blue-500 hover:bg-blue-600 py-4 lg:py-5 px-12 mb-7 text-base font-semibold">
+                Take a product Tour
+              </button>
+              <p className="leading-relaxed text-center font-medium text-base mt-4 text-[#b5b5b5]">
+                Experience Convenience Like Never Before With Our Smart Water
+                Purifier
+              </p>
+            </div>
           </div>
         </div>
       </div>
