@@ -9,7 +9,7 @@ const Product = () => {
         className="container mx-auto"
       >
         <div className="flex flex-col-reverse md:flex-row items-center justify-center">
-          <div className="lg:flex-grow lg:w-1/2  flex flex-col md:items-start md:text-left mb-16 md:mb-44 text-start lg:mx-auto">
+          <div className="lg:flex-grow lg:w-1/2  flex flex-col md:items-start md:text-left mb-16 md:mb-0 text-start lg:mx-auto">
             <div className="flex justify-center pl-12 pr-6 py-3 lg:max-w-fit w-fit mt-10 bg-white rounded-full shadow-lg relative mx-auto">
               <div className="mt-1 pr-2">
                 <BsFillCheckCircleFill />
