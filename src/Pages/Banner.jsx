@@ -1,4 +1,5 @@
 import "./banner.css";
+import { Link as ScrollLink } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -29,9 +30,12 @@ const Banner = () => {
               while ensuring a seamless service experience.
             </p>
             <div className="flex flex-col justify-center items-center mx-auto relative">
-              <button className="inline-flex text-white focus:outline-none border-1 rounded-full bg-blue-500 hover:bg-blue-600 py-4 lg:py-5 px-12 mb-7 text-base font-semibold">
-                Take a product Tour
-              </button>
+              <ScrollLink to="second-section" smooth={true} duration={500}>
+                <button className="inline-flex text-white focus:outline-none border-1 rounded-full bg-blue-500 hover:bg-blue-600 py-4 lg:py-5 px-12 mb-7 text-base font-semibold">
+                  Take a product Tour
+                </button>
+              </ScrollLink>
+
               <p className="leading-relaxed text-center font-medium text-base mt-4 text-[#b5b5b5]">
                 Experience Convenience Like Never Before With Our Smart Water
                 Purifier
